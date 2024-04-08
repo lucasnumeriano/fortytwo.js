@@ -1,2 +1,2 @@
-# 42.js
+# FortyTwo.js
 Minha biblioteca JavaScript
