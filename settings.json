@@ -1,0 +1,6 @@
+{
+    "liveServer.settings.mimeTypes": {
+        "text/html": ["html"],
+        "application/javascript": ["js"]
+    }
+}
