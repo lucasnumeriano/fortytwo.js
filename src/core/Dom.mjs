@@ -1,4 +1,4 @@
-import { print, error } from "../core/Utils.mjs"
+import { print, error } from "../core/Utils.mjs";
 
 export function selectElement(element) {
     return document.querySelector(element);
@@ -15,10 +15,10 @@ export function addClass(elementId, clasS) {
             element.classList.add(clasS);
             print("Classe '" + clasS + "' adicionada ao elemento com ID '" + elementId + "'.");
         } else {
-            print("O elemento '" + elementId + "' já possui está classe!")
+            print("O elemento '" + elementId + "' já possui está classe!");
         }
     } else {
-        error("Elemento com ID '" + elementId + "' não encontrado!")
+        error("Elemento com ID '" + elementId + "' não encontrado!");
     }
 }
 
@@ -29,9 +29,9 @@ export function removeClass(elementId, clasS) {
             element.classList.remove(clasS);
             print("Classe '" + clasS + "' removida do elemento com ID '" + elementId + "'.");
         } else {
-            print("O elemento '" + elementId + "' já possui está sem a classe!")
+            print("O elemento '" + elementId + "' já possui está sem a classe!");
         }
     } else {
-        error("Elemento com ID '" + elementId + "' não encontrado!")
+        error("Elemento com ID '" + elementId + "' não encontrado!");
     }
 }

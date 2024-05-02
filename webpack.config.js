@@ -3,12 +3,12 @@ const path = require('path');
 module.exports = {
   mode: 'production',
   entry: {
-    main: ['./src/index.js']
+    main: ['./src/index.js', './src/components/Menu.js']
   },
   output: {
-    filename: 'my-library.js',
+    filename: 'forty-two.js',
     path: path.resolve(__dirname, 'dist'),
-    library: 'MinhaBiblioteca',
+    library: 'FortyTwo',
     libraryTarget: 'umd',
     umdNamedDefine: true
   }

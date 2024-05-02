@@ -1,8 +1,8 @@
 {
   "name": "fortytwo",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "Minha biblioteca JavaScript.",
-  "main": "script.js",
+  "main": "./dist/my-library.js",
   "directories": {
     "doc": "docs",
     "example": "examples"
